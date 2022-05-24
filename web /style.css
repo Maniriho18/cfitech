@@ -1,0 +1,42 @@
+div{
+    /*permet de defninir une couleur de fond*/
+    background-color:cornflowerblue;
+    /* permet de definir la couleur du texte */
+    color:white ;
+
+    border: 5px solid rgb(21, 215, 57);
+    /* le fait de retire le margin les deux div ce cole */ 
+   /* le margin-bottom ne fait que cree de l'espace en bas */
+   /* pour le margin on peut aussi utilise 4 valeur pour separe les ombre */ 
+   margin-bottom: 10px; 
+   /* le haut, a droit, en bas, a gauche*/
+    padding: 20px 15px 10px 5px;
+    
+}
+
+
+/* quand on suvol un element div il change de couleur */
+  div:hover{
+      background-color:rgb(255, 0, 149) (206, 26, 26);
+      /* cela permet d'avoir une forme de main */
+      cursor: pointer;
+  }
+  /* les paragraphes en couleur*/
+  /* les titres peut change de couleur */
+  p{ color: red;}
+  /*taille de la police */
+  
+  h1{
+          
+    font-size: 50px; 
+    color: yellow;}
+  /* change juste le style d'un seul */ 
+  .montitre {color: white;}
+  h4 {color:blueviolet }
+/* permet de regle la taille de l'image */
+  img{ 
+      width: 250px;}
+      /* pouvoir click sur l'image qui s'agrandi*/
+      img:hover{ width: 270px;}
+      
+
